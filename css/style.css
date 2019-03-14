@@ -2,7 +2,7 @@
 article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video{ display:block;}
 mark, rp, rt, ruby, summary, time{ display:inline }
 /* Global properties */
-body {background:#1d1d1d;font-family:Arial, Helvetica, sans-serif;font-size:100%;line-height:1.125em;color:#c0c0c0}
+body {background:#1d1d1d;font-family:Arial/*和标题字体有关*/, Helvetica, sans-serif;font-size:100%;line-height:1.125em;color:#c0c0c0}
 html {min-width:980px}
 html, body {height:100%}
 .container_16 {font-size:.75em;position:relative}
@@ -24,7 +24,7 @@ footer{border-top:1px solid #292929;padding:40px 0 40px 0}
 /* The inside class provides consistent padding. To be used often! */
 .inside{ padding:20px;}
 /* form defaults */
-input, select, textarea {font-family:Arial, Helvetica, sans-serif;font-size:1em;vertical-align:middle;font-weight:normal}
+input, select, textarea {font-family:Arial/*Arial, Helvetica, sans-serif*/;font-size:1em;vertical-align:middle;font-weight:normal}
 .inner_copy, .inner_copy a {border:0;float:right;background:#fff;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}
 figure {margin:0 24px 0 0;float:left;padding:4px;background:#fff;position:relative;border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px;behavior:url(js/PIE.htc)}
 figure.alt {margin-right:5px}
@@ -38,7 +38,7 @@ p {margin-bottom:18px}
 /* txt, links, lines, titles */
 a {color:#c0c0c0;outline:none}
 a:hover {text-decoration:none}
-h2 {font-size:33px;color:#fff;line-height:1.2em;font-style:italic;font-weight:normal;letter-spacing:-1px;margin-bottom:.5em}
+h2 {font-family:微软雅黑;font-size:33px;color:#fff;line-height:1.2em;font-style:normal;font-weight:normal;letter-spacing:-1px;margin-bottom:.5em}
 h3 {font-size:1em;line-height:16px;font-weight:normal;text-transform:uppercase;color:#c0c0c0;margin-bottom:5px}
 h4 {font-size:1em;color:#616161;margin-bottom:12px}
 h5 {font-size:15px;line-height:20px;font-weight:normal;color:#909090;font-style:italic;margin-bottom:1em}
