@@ -97,7 +97,8 @@ aside article.last {margin-bottom:0}
 /* Accordion */
 .accordion dt {font-size:16px;line-height:1.2em;color:#000;position:relative;padding:10px 0 5px 40px;height:1%}
 .accordion dt img {position:absolute;left:0;top:10px}
-.accordion dt a {color:#000}
+/*.accordion dt a {color:#000}*/
+.accordion dt a {color:#fff}
 .accordion dd {display:none;padding:0 0 0 40px}
 /* Lists */
 .list1 li {background:url(../images/arrow1.gif) no-repeat 0 7px;padding:0 0 6px 15px;font-size:13px;zoom:1}
